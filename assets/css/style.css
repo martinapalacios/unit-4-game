@@ -1,9 +1,5 @@
 /**External CSS Stylesheet**/
 
-/* body {
-    background-color: black;
-} */
-
 body{
     background-image:url("../images/crystalbackground.jpg")
 }
@@ -21,9 +17,34 @@ body{
     color: #4aaaa5;
 }
 
+/* Paragraph */
+.instructioncontainer {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+}
+p{
+    margin: 0 0 10px
+}
+
+.randomcontainer {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+}
+
 h2{
     font-size: 30px;
     margin: 0 0 10px;
+}
+
+.wlcontainer {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
 }
 
 h3{
@@ -36,20 +57,24 @@ h4{
     padding: 10px;
 }
 
-/* Paragraph */
-p{
-    margin: 0 0 10px
-}
-
-/* Random number div */
-#div-random {
-    width: auto;
-}
-
 /* Crystal images */
+.crystalcontainer {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+}
+
 .crystal-img {
 	height: 150px;
 	width: 150px;
+}
+
+.scorecontainer {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
 }
 
 footer {
