@@ -1,0 +1,64 @@
+/**External CSS Stylesheet**/
+
+/* body {
+    background-color: black;
+} */
+
+body{
+    background-image:url("../images/crystalbackground.jpg")
+}
+
+/* Container */
+.jumbotron {
+    background-color: #ffffff;
+    border-bottom: 8px solid #4aaaa5;
+}
+
+/* Headings */
+#main-header {
+    font-size: 48px;
+    text-align: center;
+    color: #4aaaa5;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+h3{
+    font-size: 26px;
+    margin: 0 0 10px;
+}
+
+h4{
+    font-size: 22px;
+    padding: 10px;
+}
+
+/* Paragraph */
+p{
+    margin: 0 0 10px
+}
+
+/* Random number div */
+#div-random {
+    width: auto;
+}
+
+/* Crystal images */
+.crystal-img {
+	height: 150px;
+	width: 150px;
+}
+
+footer {
+    width: auto;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+}
