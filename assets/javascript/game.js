@@ -17,20 +17,15 @@ function startGame() {
 	let compNum = Math.floor(Math.random() * 102) + 19;
 	computerNum.push(compNum);
 	$("#random-number").text(computerNum[0]);
-	console.log("Computer number: " + computerNum);
 
     // Random number for crystals
     emeraldNum = Math.floor(Math.random() * 12) + 1;
-    console.log("Emerald: " + emeraldNum);
 
     quartzNum = Math.floor(Math.random() * 12) + 1;
-    console.log("Quartz: " + quartzNum);
 
     sapphireNum = Math.floor(Math.random() * 12) + 1;
-    console.log("Sapphire: " + sapphireNum);
 
     purpleNum = Math.floor(Math.random() * 12) + 1;
-    console.log("Purple: " + purpleNum);
 
 };
 
@@ -47,7 +42,6 @@ function checkingNum () {
 		wins++;
 		$("#outcome").html("You won!");
 		$("#wins").html("Wins: "+ wins);
-		console.log("You won!");
 		nextGame();
 	}
 
@@ -55,45 +49,36 @@ function checkingNum () {
 		losses++;
 		$("#outcome").html("You lost!");
 		$("#loss").html("Losses: " + losses);
-		console.log("You lost!");
 		nextGame();
-	}
-
-	else {
-		console.log("Keep guessing!")
 	}
 
 };
 
-//Calling the game to start
+// Start the game
 startGame();
 
-//Clicking crystals
+// Clicking crystals
 $("#emerald").on("click", function() {
 	playerCounter = emeraldNum + playerCounter;
 	$("#scorecount").text(playerCounter);
-	console.log(playerCounter);
 	checkingNum();
 });
 
 $("#quartz").on("click", function() {
 	playerCounter = quartzNum + playerCounter;
 	$("#scorecount").text(playerCounter);
-	console.log(playerCounter);
 	checkingNum();
 });
 
 $("#sapphire").on("click", function() {
 	playerCounter = sapphireNum + playerCounter;
 	$("#scorecount").text(playerCounter);
-	console.log(playerCounter);
 	checkingNum();
 });
 
 $("#purple").on("click", function() {
 	playerCounter = purpleNum + playerCounter;
 	$("#scorecount").text(playerCounter);
-	console.log(playerCounter);
 	checkingNum();
 });
 
